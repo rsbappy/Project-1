@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -32,7 +33,7 @@
 	</nav>
 	<section class="h-text">
 		<i class="fa fa-camera" id="camera"></i>
-		<h1>Capturing the moments that captivate your heart.</h1>
+		<h1 data-aos="fade-up">Capturing the moments that captivate your heart.</h1>
 		<input type="text" name="" placeholder="Search here...">
 		<button><i class=" fa fa-search"></i></button>
 	</section>
@@ -52,31 +53,31 @@
 		</ul>	
 	</div>
 	<div class="portfolio-item">
-		<div class="item nature">
+		<div class="item nature"data-aos="flip-right" data-aos-offset="100"data-aos-delay="100">
 			<img src="img/p1.jpg" alt="" height="100px" width="100px">
 		</div>
-		<div class="item faishon">
-			<img src="img/p2.jpg" alt="" height="100px" width="100px">
+		<div class="item faishon" data-aos="flip-right" data-aos-offset="100"data-aos-delay="200">
+			<img src="img/p2.jpg" alt="" height="100px" width="00px">
 		</div>	
-		<div class="item wedding">
+		<div class="item wedding"data-aos="flip-right" data-aos-offset="100"data-aos-delay="300">
 			<img src="img/p3.jpg" alt="" height="100px" width="100px">
 		</div>
-		<div class="item nature">
+		<div class="item nature"data-aos="zoom-in" data-aos-offset="100"data-aos-delay="100">
 			<img src="img/p4.jpg" alt="" height="100px" width="100px">
 		</div>
-		<div class="item faishon">
+		<div class="item faishon"data-aos="zoom-in" data-aos-offset="100"data-aos-delay="200">
 			<img src="img/p5.jpg" alt="" height="100px" width="100px">
 		</div>	
-		<div class="item wedding">
+		<div class="item wedding"data-aos="zoom-in" data-aos-offset="100"data-aos-delay="300">
 			<img src="img/p6.jpg" alt="" height="100px" width="100px">
 		</div>
-		<div class="item nature">
+		<div class="item nature"data-aos="zoom-in-up" data-aos-offset="100"data-aos-delay="100">
 			<img src="img/p7.jpg" alt="" height="100px" width="100px">
 		</div>
-		<div class="item faishon">
+		<div class="item faishon"data-aos="zoom-in-up" data-aos-offset="100"data-aos-delay="200">
 			<img src="img/p8.jpg" alt="" height="100px" width="100px">
 		</div>	
-		<div class="item wedding">
+		<div class="item wedding"data-aos="zoom-in-up" data-aos-offset="100"data-aos-delay="300">
 			<img src="img/p9.jpg" alt="" height="100px" width="100px">
 		</div>
 	
@@ -85,14 +86,14 @@
 </section>
 
 <section class="member">
-	<div class="member-info">
+	<div class="member-info"data-aos="zoom-in-up" data-aos-offset="100"data-aos-delay="300">
 		<h1>Our <span>Informations</span></h1>
 		<p>What our member says</p>
 
 
 	</div>
 
-	<div class="member-card">
+	<div class="member-card"data-aos="zoom-in-down" data-aos-offset="100"data-aos-delay="300">
 		<img src="img/member.png" alt="">
 		<p>From Rajasthan,doing gym is good for healthy life. it helps our body to fit. it release stress from our mind.From Rajasthan,doing gym is good for healthy life. it helps our body to fit. it release stress from our mind.
 		</p>
@@ -103,7 +104,7 @@
 		<img src="img/icon4.png" alt="" width="100px" >
 
 	</div>
-	<div class="m-imgaes">
+	<div class="m-imgaes"data-aos="zoom-in" data-aos-offset="100"data-aos-delay="300">
 		<img src="img/s1.jpg" alt="">
 		<img src="img/s2.jpg" alt="">
 		<img src="img/s3.jpg" alt="">
@@ -122,18 +123,18 @@
 <footer>
 		<div class="newsletter">
 
-			<div>
+			<div data-aos="zoom-in-up" data-aos-offset="200">
 				<h2>Subscribe our newsletter</h2>
 				<p>We’re a team of non-cynics who truly care for our work.</p>
 			</div>
-			<div class="ntext">
+			<div class="ntext" data-aos="fade-in-right" data-aos-offset="200">
 				<label for="">
 					<input type="text"name="" placeholder="Enter You Email">
 					<button>Subscribe</button>
 				</label>
 			</div>
 		</div>
-		<div class="f-contact">
+		<div class="f-contact"data-aos="zoom-in-up" data-aos-offset="200">
 			<div>
 				<h1>Information</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur elit. Nihil sit dicta.</p>
@@ -190,7 +191,10 @@
 	});
 </script>
  
-		
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init();
+  </script>		
 
 
 
